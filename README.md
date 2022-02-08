@@ -57,7 +57,14 @@ At another GitBash terminal, change to folder _greeter_client_ and execute follo
 Upon execution, should see message similiar to as follows, except the date/time stamp.
 <pre>$ 2022/02/09 06:44:27 Greeting: Hello gRPC Trial - HelloWorld</pre>
 
+## _Issue_
+- Inconsistence between in-command help message of _proto_ and introductory artice, such as [4, 5]
+  In the in-command help message, there is no mentioning of options _go_out_, nor _go-grpc_out_.
+  
 ## _References_
 [1] https://www.infoq.com/podcasts/api-showdown-rest-graphql-grpc/?utm_source=email&utm_medium=toppodcasts&utm_campaign=newsletter&utm_content=01252022<br/>
 [2] https://www.itechart.com/blog/performance-begins-with-design-style/<br/> 
 [3] https://github.com/SpenserKao/article_REST<br/>
+[4] https://grpc.io/docs/languages/go/basics/<br/>
+[5] https://grpc.io/docs/languages/go/quickstart/
+  
