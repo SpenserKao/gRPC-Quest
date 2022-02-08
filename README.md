@@ -10,9 +10,14 @@ This artice is about a pet project evaluating _gRPC_. gRPC also known as Google 
 | protoc/libprotoc | Proto Buf Compiler | v3.19.4 |
 | grpc_go | grpc with Golang | v1.43.0 |
 
-
 ## _Workflow_
 ![gRPC Workflow](image/gRPC-Workflow.png "gRPC Workflow")<br/>
+
+### Defining Service
+
+### Compiling Protocol Buffer to Generate Code
+
+### Implementation
 
 ## _References_
 [1] https://www.infoq.com/podcasts/api-showdown-rest-graphql-grpc/?utm_source=email&utm_medium=toppodcasts&utm_campaign=newsletter&utm_content=01252022<br/>
