@@ -18,11 +18,11 @@ _<def>_ stands for the project name, in this pet project, it's _helloworld_.
 The first step is to define _gRPC service_ and methods of _request_ and _response_ types using _protocol_ buffers. All these are defined in _.proto_ file. 
 
 ### Compiling Protocol Buffer to Generate Code
-<code>
+<pre>
 $ protoc --go_out=. --go_opt=paths=source_relative \
     --go-grpc_out=. --go-grpc_opt=paths=source_relative \
     helloworld/helloworld.proto
-</code>    
+</pre>    
   
 ### Implementation
 
