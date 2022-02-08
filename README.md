@@ -58,7 +58,7 @@ Upon execution, should see message similiar to as follows, except the date/time 
 <pre>$ 2022/02/09 06:44:27 Greeting: Hello gRPC Trial - HelloWorld</pre>
 
 ## _Issue_
-- Inconsistence between in-command help message of _proto_ and introductory artice, such as [4, 5]<br/>
+- Inconsistence between in-command help message of _proto_ and introductory artice, such as [4, 5].<br/>
   In the in-command help message, there is no mentioning of options _go_out_, nor _go-grpc_out_.
   
 ## _References_
