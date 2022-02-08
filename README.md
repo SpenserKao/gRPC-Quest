@@ -26,11 +26,13 @@ $ protoc --go_out=. --go_opt=paths=source_relative \
 </pre>    
 It tells,
 - where to get .proto file as input;
-- via option _go_out_, the resultant _**&lt;def&gt;.pb.go**_ output file will be placed at the same directory relaive to input source, via option _go_opt_; and
-- via option _go-grpc_out_, the resultant _**&lt;def&gt;&lowbar;grpc.pb.go**_ output file will be placed at the same directory relaive to input source, via option _go-grpc_opt_;<br/>
+- via option _go_out_, the resultant _**&lt;def&gt;.pb.go**_ output file will be placed at the same folder relaive to input source, via option _go_opt_; and
+- via option _go-grpc_out_, the resultant _**&lt;def&gt;&lowbar;grpc.pb.go**_ output file will be placed at the same directory relaive to input source, via option _go-grpc_opt_.<br/>
 Note: _<def>_ stands for the project name, in this pet project, it's _helloworld_.
   
 ### Implementation
+Folders _greeter_client_ and _greeter_server_ contain client and server codes that integrate message types and methods generated in resultants _**&lt;def&gt;.pb.go**_ and _**&lt;def&gt;&lowbar;grpc.pb.go**_.
+  
 
 ## _References_
 [1] https://www.infoq.com/podcasts/api-showdown-rest-graphql-grpc/?utm_source=email&utm_medium=toppodcasts&utm_campaign=newsletter&utm_content=01252022<br/>
