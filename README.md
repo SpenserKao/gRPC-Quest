@@ -11,7 +11,7 @@ This artice is about a pet project evaluating _gRPC_. gRPC also known as Google 
 | grpc_go | grpc with Golang | v1.43.0 |
 
 
-##_ Workflow_
+## _Workflow_
 ![gRPC Workflow](image/gRPC-Workflow.png "gRPC Workflow")<br/>
 
 ## _References_
