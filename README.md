@@ -26,9 +26,9 @@ $ protoc --go_out=. --go_opt=paths=source_relative \
 </pre>    
 It tells,
 - where to get .proto file as input;
-- via option _go_out_, the resultant **&lt;def&gt;.pb.go** output file will be placed at the same directory relaive to input source, via option _go_opt_; and
-- via option _go-grpc_out_, the resultant **&lt;def&gt;&lowbar;grpc.pb.go** output file will be placed at the same directory relaive to input source, via option _go-grpc_opt_;
-_<def>_ stands for the project name, in this pet project, it's _helloworld_.
+- via option _go_out_, the resultant _**&lt;def&gt;.pb.go**_ output file will be placed at the same directory relaive to input source, via option _go_opt_; and
+- via option _go-grpc_out_, the resultant _**&lt;def&gt;&lowbar;grpc.pb.go**_ output file will be placed at the same directory relaive to input source, via option _go-grpc_opt_;<br/>
+Note: _<def>_ stands for the project name, in this pet project, it's _helloworld_.
   
 ### Implementation
 
