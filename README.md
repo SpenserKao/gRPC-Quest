@@ -49,17 +49,13 @@ PS C:\Users\user\workspace\grpc-go\examples\helloworld\greeter_server> go run ma
 2022/02/09 06:43:05 server listening at 127.0.0.1:50051
 </pre>
 Again, once at client side a request is sent, expect to see following message, except date/time stamp.
-<pre>
-2022/02/09 06:44:27 Received: gRPC Trial - HelloWorld
-</pre?
+<pre>$ 2022/02/09 06:44:27 Received: gRPC Trial - HelloWorld</pre>
 
 ### Client side
 At another GitBash terminal, change to folder _greeter_client_ and execute following command to start client request<br/> 
 <pre>go run main.go</pre>
-Upon execution, should see message similiar to as follows, except the date/time stamp
-  <pre>
-$ 2022/02/09 06:44:27 Greeting: Hello gRPC Trial - HelloWorld
-</pre>
+Upon execution, should see message similiar to as follows, except the date/time stamp.
+<pre>$ 2022/02/09 06:44:27 Greeting: Hello gRPC Trial - HelloWorld</pre>
 
 ## _References_
 [1] https://www.infoq.com/podcasts/api-showdown-rest-graphql-grpc/?utm_source=email&utm_medium=toppodcasts&utm_campaign=newsletter&utm_content=01252022<br/>
