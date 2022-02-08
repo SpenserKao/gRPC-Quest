@@ -1,4 +1,4 @@
-# Per project gRPC-Quest - The Quest of gRPC
+# Pet project gRPC-Quest - The Quest of gRPC
 ## _Abstract_
 _REST_, _gRPC_ and _GraphQL_ are the three ubiquitous API technologies. There have been articles [1, 2] comparing the three, and suggesting when to use which.
 
