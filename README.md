@@ -2,7 +2,7 @@
 ## _Abstract_
 _REST_, _gRPC_ and _GraphQL_ are the three ubiquitous API technologies. There have been articles [1, 2] comparing the three, and suggesting when to use which.
 
-Following my pet project of retrieving articles in RESTful API[3], this project is about evaluating _gRPC_. gRPC also known as Google Remote Procedure Call is an open source remote procedure call system initially developed at Google in 2015 as the next generation of the RPC infrastructure Stubby.
+Following my pet project of retrieving articles in RESTful API [3], this project is about evaluating _gRPC_. gRPC also known as Google Remote Procedure Call is an open source remote procedure call system initially developed at Google in 2015 as the next generation of the RPC infrastructure Stubby.
 
 ## _Libraries/Tools in Use_
 | Library/Tool | Description | Version | 
@@ -12,11 +12,18 @@ Following my pet project of retrieving articles in RESTful API[3], this project 
 
 ## _Workflow_
 ![gRPC Workflow](image/gRPC-Workflow.png "gRPC Workflow")<br/>
-
+_<def>_ stands for the project name, in this pet project, it's _helloworld_.
+  
 ### Defining Service
+The first step is to define _gRPC service_ and methods of _request_ and _response_ types using _protocol_ buffers. All these are defined in _.proto_ file. 
 
 ### Compiling Protocol Buffer to Generate Code
-
+<code>
+$ protoc --go_out=. --go_opt=paths=source_relative \
+    --go-grpc_out=. --go-grpc_opt=paths=source_relative \
+    helloworld/helloworld.proto
+</code>    
+  
 ### Implementation
 
 ## _References_
