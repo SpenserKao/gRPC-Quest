@@ -2,8 +2,18 @@
 ## _Abstract_
 _REST_, _gRPC_ and _GraphQL_ are the three ubiquitous API technologies. There have been articles [1, 2] comparing the three, and suggesting when to use which.
 
-Following my pet project of retrieving articles in RESTful API [3], this project is about evaluating _gRPC_. gRPC also known as Google Remote Procedure Call is an open source remote procedure call system initially developed at Google in 2015 as the next generation of the RPC infrastructure Stubby.
+Following my pet project of retrieving articles in RESTful API [3], this project is about evaluating _gRPC_. _gRPC_,  also known as Google Remote Procedure Call, is an open source remote procedure call system initially developed at Google in 2015 as the next generation of the RPC infrastructure Stubby.
 
+### gRPC vs REST API
+_REST API_ has exerted its dominance in web programming world until _gRPC_ came to play due to following two reasons.
+- Protobuf vs JSON<br/>
+Standing for JavaScript Object Notation, JSON is standardized and is supported virtually by almost all languages. JSON is also generically the payload format used by REST API across its ecosystem. For seralisation, JSON stores data in human-readable text. <br/>
+On the contrary, _gRPC_ uses Protobuf, which is an acronym for Protocol buffers. 
+Originally designed by Google for serialization and de-serialization of structured data,  Protobuf provides a better way of communication between different systems, particilarly, it is simple, faster, and more manageable. Noteworthily, **Protobuf is binary data – interchange format, as compared with text-based JSON**.
+
+- HTTP/2 vs HTTP 1.1<br/>
+In terms of HTTP network protocol used by the World Wide Web, _REST API_ relies heavily on HTTP 1.1 and the request-response model. Meanwhile, _gRPC_ uses newer HTTP/2 protocol, which evolved from earlier experimental SPDY protocol, originally developed by Google. **HTTP/2 presents three qualities over its predecessor: simplicity, high performance and robustness**.
+  
 ## _Libraries in Use_
 | Library/Tool | Description | Version | 
 |:-----------------|:-------:|-----------|
